@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: #1e4356;
+
 }
 
 #header.header-transparent {
@@ -159,6 +159,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   height: 90vh;
   overflow: hidden;
   position: relative;
+ 
 }
 
 #hero::after {
@@ -168,11 +169,11 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   top: 0;
   width: 130%;
   height: 95%;
-  background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("../img/hero-bg.jpg") center top no-repeat;
+  background: url("../img/hero-bg.svg") center top no-repeat;
   z-index: 0;
   border-radius: 0 0 50% 50%;
   transform: translateX(-50%) rotate(0deg);
-}
+} 
 
 #hero::before {
   content: '';
@@ -181,7 +182,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   top: 0;
   width: 130%;
   height: 96%;
-  background: #68A4C4;
+  background: #2c2c2c;
   opacity: 0.3;
   z-index: 0;
   border-radius: 0 0 50% 50%;
@@ -219,13 +220,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   width: 10%;
 }
 
-#hero .carousel-control-next-icon, #hero .carousel-control-prev-icon {
-  background: none;
-  font-size: 48px;
-  line-height: 1;
-  width: auto;
-  height: auto;
-}
+
 
 #hero .btn-get-started {
   font-family: "Roboto", sans-serif;
@@ -241,11 +236,11 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #68A4C4;
+  border: 2px solid #2c2c2c;
 }
 
 #hero .btn-get-started:hover {
-  background: #68A4C4;
+  background: #2c2c2c;
   color: #fff;
   text-decoration: none;
 }
